@@ -19,8 +19,6 @@ def init(ip, port, main):
     if code == 0:
         print("|> Attack Sendo Realizado!")
         print("IP: %s, PORT:%s", ip, port)
- else:
-        print("Erro!\n")
         
 if len(sys.argv) < 3:
     print("\n\n")
